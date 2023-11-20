@@ -24,7 +24,7 @@ There are three types of modes.
 - Y - Allows us to zoom the chart vertically.
 - XY - Allows us to zoom the chart both vertically and horizontally.
 
-By default, blazor chart can be able to zoom both vertically and horizontally. By using <a name="_hlk146116090"></a>[Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property, you can specify whether the chart should be zoomed along any one direction (X or Y) or both directions (XY).
+By default, blazor chart can be able to zoom both vertically and horizontally. By using [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property, you can specify whether the chart should be zoomed along any one direction (X or Y) or both directions (XY).
 
 In the below code example, the [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property is set to X. This will allow you to zoom only along X-axis while the zooming along Y axis is restricted.
 
