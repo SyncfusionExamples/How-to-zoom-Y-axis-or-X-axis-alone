@@ -1,30 +1,16 @@
 # How-to-zoom-Y-axis-or-X-axis-alone
 
-This article explains how to zoom x-axis or y-axis alone in blazor chart.
+This article explains how to customize the zoom for the y-axis or x-axis individually in the [Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts).
 
-**Zooming Blazor column chart x-azis alone**
+**Customizing the zoom mode**
 
-Blazor chart provides the support to zoom in and zoom out into the chart using [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html) . 
+You can customize the zoom mode by using the [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html) determines whether the chart can scale along the horizontal or vertical axes. The default value of the mode is XY (both axis).
 
-**Step 1** : Enable Zooming in Blazor chart.
-
-Blazor chart can be zoomed in three different ways.
-
-- Selection - By setting [EnableSelectionZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnableSelectionZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the chart can be zoomed using the rubber band selection.
-- Mouse Wheel - By setting [EnableMouseWheelZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnableMouseWheelZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the chart can be zoomed-in and zoomed-out by scrolling the mouse wheel.
-- Pinch - By setting [EnablePinchZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnablePinchZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the chart can be zoomed through pinch gesture in touch enabled devices.
-
-**Step 2** : Specifying zooming mode in Blazor chart.
-
-The [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html) determines whether the chart can scale along the horizontal or vertical axes. The default value of the mode is XY (both axis).
-
-There are three types of modes.
+[Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property in includes the following zooming mode option:
 
 - X - Allows us to zoom the chart horizontally.
 - Y - Allows us to zoom the chart vertically.
-- XY - Allows us to zoom the chart both vertically and horizontally.
-
-By default, blazor chart can be able to zoom both vertically and horizontally. By using [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property, you can specify whether the chart should be zoomed along any one direction (X or Y) or both directions (XY).
+- XY - Allows us to zoom the chart both vertically and horizontally. 
 
 In the below code example, the [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property is set to X. This will allow you to zoom only along X-axis while the zooming along Y axis is restricted.
 
