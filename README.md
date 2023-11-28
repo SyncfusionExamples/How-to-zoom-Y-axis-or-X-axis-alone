@@ -62,15 +62,6 @@ The following screenshot illustrate the output of the above code snippet.
 | ------ | ------ |
 | ![Blazor chart before zooming](/before-zooming.png) | ![Blazor chart after zooming](/after-zooming.png) |
 
-
-Figure 1: Chart series before Zooming.
-
-![](/before-zooming.png)
-
-Figure 2: Chart series after Zooming along X-axis.
-
- ![](/after-zooming.png)
-
  **Conclusion**
 
 I hope you enjoyed learning how to zoom X-axis or Y-axis alone in Blazor Chart Component.
