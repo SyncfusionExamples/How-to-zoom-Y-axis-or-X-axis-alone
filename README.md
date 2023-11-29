@@ -54,11 +54,11 @@ In the below code example, the [Mode](https://help.syncfusion.com/cr/blazor/Sync
 
 ```
 
-The following screenshot illustrate the output of the above code snippet.
+The following image illustrate the output of the above code snippet.
 
 **Output:**
 
-![](/Zooming-X-or-Y-Axis.gif)
+![Zooming X or Y axis alone](/Zooming-X-or-Y-Axis.gif)
 
  **Conclusion**
 
