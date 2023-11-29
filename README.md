@@ -58,9 +58,7 @@ The following screenshot illustrate the output of the above code snippet.
 
 **Output:**
 
-| Before Zooming | After Zooming |
-| ------ | ------ |
-| ![Blazor chart before zooming](/before-zooming.png) | ![Blazor chart after zooming](/after-zooming.png) |
+![](/Zooming-X-or-Y-Axis.gif)
 
  **Conclusion**
 
