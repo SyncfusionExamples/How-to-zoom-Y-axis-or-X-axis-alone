@@ -1,10 +1,10 @@
 # How-to-zoom-Y-axis-or-X-axis-alone
 
-This article explains how to customize the zoom for the y-axis or x-axis individually in the [Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts).
+This article explains how to customize the zoom functionality to individually zoom the y-axis or x-axis in the Blazor Chart Component. 
 
-**Customizing the zoom mode**
+**Adjusting Zoom Mode in Blazor Chart Component**
 
-You can customize the zoom mode by using the [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html) determines whether the chart can scale along the horizontal or vertical axes. The default value of the mode is XY (both axis).
+[Blazor Chart]((https://www.syncfusion.com/blazor-components/blazor-charts)) provides support for customizing the zoom mode by using the [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html). This property determines whether the chart can scale along the horizontal or vertical axes. The default value of the mode is XY (both axes). 
 
 [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property in includes the following zooming mode option:
 
@@ -14,7 +14,7 @@ You can customize the zoom mode by using the [Mode](https://help.syncfusion.com
 
 In the below code example, the [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property is set to X. This will allow you to zoom only along X-axis while the zooming along Y axis is restricted.
 
-**C#**
+**Index.razor**
 
  ```cshtml
 
@@ -54,7 +54,7 @@ In the below code example, the [Mode](https://help.syncfusion.com/cr/blazor/Sync
 
 ```
 
-The following image illustrate the output of the above code snippet.
+The following image illustrates the output of the above code snippet.
 
 **Output:**
 
@@ -69,10 +69,3 @@ You can refer to our [Blazor Chart feature tour](https://www.syncfusion.com/blaz
 For current customers, you can check out our components from the [License and Downloads](https://www.syncfusion.com/sales/teamlicense) page. If you are new to Syncfusion, you can try our 30-day [free trial](https://www.syncfusion.com/downloads/blazor) to check out our other controls.
 
 If you have any queries or require clarifications, please let us know in the comments section below. You can also contact us through our [support forums](https://www.syncfusion.com/forums), [support portal](https://support.syncfusion.com/create), or [feedback portal](https://www.syncfusion.com/feedback/blazor-components?control=charts). We are always happy to assist you!
-
-
-
-
-
-
-
